@@ -4,6 +4,7 @@ import React from 'react';
 import { ThemeContext } from './Context/theme';
 import Aos from 'aos';
 import { Header } from './Components/Header/Header';
+import { About } from './Components/About/About';
 
 function App() {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -15,6 +16,9 @@ function App() {
       <section id="#home">
         <Header />
       </section>
+      <main>
+        <About />
+        </main>
 
     </div>
   );
