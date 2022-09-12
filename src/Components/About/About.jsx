@@ -6,11 +6,10 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import DescriptionIcon from "@material-ui/icons/Description";
 import { Introduction } from "./Introduction";
-// import PublicIcon from "@material-ui/icons/Public";
+import { Techstacks } from "./Techstacks";
+import Skills from "./Skills";
 
-// import Button from "@mui/material/Button";
 export const About = () => {
     return (
         <>
@@ -20,7 +19,7 @@ export const About = () => {
                 </h1>
                 <Type />
                 <p className="about__desc" data-aos="fade-right">
-                    Aspiring Full Stack Web Developer- Team player with leadership quality, Quick learner, 
+                    Aspiring Full Stack Web Developer- Team player with leadership quality, Quick learner,
                     working extensively on React and Redux, looking forward to working on a product-based company.
                     Attired with a variety of tools & technologies and keen to
                     learn new one.
@@ -85,6 +84,13 @@ export const About = () => {
                 </button>
             </div>
             <Introduction />
+            <section id="#techstack">
+            <Techstacks />
+            </section>
+            <section id="#skills">
+            <Skills />
+            </section>
+            
 
         </>
     );

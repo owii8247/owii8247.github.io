@@ -6,7 +6,7 @@
   background-color: var(--clr-bg);
 }
 
-.light {
+/* .light {
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
@@ -14,14 +14,24 @@
   --clr-primary: #219292;
   
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+.light {
+  --clr-bg: #fcfcfc;
+  --clr-bg-alt: #fff;
+  --clr-fg: rgb(70, 60, 60);
+  --clr-fg-alt: rgb(39, 39, 39);
+  --clr-primary: #036135;
+  
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #667ed6;
+  --clr-bg: #290122;
+  --clr-bg-alt: #dd81dd;
+  --clr-fg: #cb70d3;
+  --clr-fg-alt: #fefeff;
+  --clr-primary: #c234b6;
  
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;

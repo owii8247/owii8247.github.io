@@ -24,15 +24,7 @@ export const Navbar = () => {
           style={{ display: showNavList ? "flex" : null }}
           className="nav__list"
         >
-          <li className="nav__list-item">
-            <a
-              href="#home"
-              onClick={() => toggleNavList("#home")}
-              className="link link--nav"
-            >
-              Home
-            </a>
-          </li>
+
           <li className="nav__list-item">
             <a
               href="#about"
@@ -40,6 +32,15 @@ export const Navbar = () => {
               className="link link--nav"
             >
               About
+            </a>
+          </li>
+          <li className="nav__list-item">
+            <a
+              href="#techstack"
+              onClick={() => toggleNavList("#techstack")}
+              className="link link--nav"
+            >
+              Tech Stacks
             </a>
           </li>
           <li className="nav__list-item">
