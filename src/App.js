@@ -5,6 +5,7 @@ import { ThemeContext } from './Context/theme';
 import Aos from 'aos';
 import { Header } from './Components/Header/Header';
 import { About } from './Components/About/About';
+import { Projects } from './Components/Projects/Projects';
 
 function App() {
   const [{ themename }] = React.useContext(ThemeContext);
@@ -18,6 +19,9 @@ function App() {
       </section>
       <main>
         <About />
+        <section id="#projects">
+          <Projects />
+        </section>
         </main>
 
     </div>
