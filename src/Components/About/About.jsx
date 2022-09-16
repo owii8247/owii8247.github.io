@@ -10,6 +10,7 @@ import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import Skills from "./Skills";
 
+
 export const About = () => {
     return (
         <>
@@ -71,12 +72,12 @@ export const About = () => {
                         <TwitterIcon />
                     </a>
                 </div>
-
+                
                 <button
                     className="btnResume"
                     onClick={() => {
                         window.open(
-                            "https://drive.google.com/file/d/1a2ljP0HbQyz26CnnjuvDzoPCSDApvjyF/view?usp=sharing"
+                            "https://drive.google.com/file/d/1IDeFGHrIEF7ipYIPR1VNzQ-fxG8geQ_g/view?usp=sharing"
                         );
                     }}
                 >
