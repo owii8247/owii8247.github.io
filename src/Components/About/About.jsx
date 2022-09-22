@@ -6,6 +6,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import GetAppIcon from '@material-ui/icons/GetApp';
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import Skills from "./Skills";
@@ -81,7 +82,7 @@ export const About = () => {
                         );
                     }}
                 >
-                    Resume
+                    Resume <GetAppIcon className="resume-dwnld" />
                 </button>
             </div>
             <Introduction />

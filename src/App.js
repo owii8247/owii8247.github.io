@@ -9,6 +9,7 @@ import GitHub from './Components/GitHub/GitHub';
 import GetInTouch from './Components/GetInTouch/GetInTouch';
 import { Footer } from './Components/Footer/Footer';
 import { ScrollToTop } from './Components/ScrollToTop/ScrollToTop';
+import Statistic from './Components/Statistic/Statistic';
 
 
 
@@ -31,9 +32,11 @@ function App() {
         <section>
         <GitHub />
         </section>
+        <section>
+        <Statistic />
+        </section>
         <section id="#contact">
           <GetInTouch />
-        
         </section>
         </main>
         <Footer />

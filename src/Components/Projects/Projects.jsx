@@ -3,7 +3,6 @@ import "./Projects.css";
 import { FaReact } from "react-icons/fa";
 import {
     SiHtml5,
-    SiReactrouter,
     SiJavascript,
     SiChakraui,
     SiSwiper,
@@ -13,7 +12,7 @@ import {
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
-import { IoLogoJavascript } from "react-icons/io";
+// import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
     return (
         <>

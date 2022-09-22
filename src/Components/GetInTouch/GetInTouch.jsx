@@ -44,9 +44,7 @@ const GetInTouch = () => {
             >
               <CgMail className="email" />
             </a>
-            {/* <a href="tel:+918510805467" target="_blank" rel="noreferrer">
-              <BsFillTelephoneFill className="phone" />
-            </a> */}
+            
           </div>
          <br />
           <div className="mailNumber" data-aos="fade-right">
