@@ -10,6 +10,7 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import Skills from "./Skills";
+import resume from "../../assets/Owais_Athar_Resume.pdf"
 
 
 export const About = () => {
@@ -73,17 +74,11 @@ export const About = () => {
                         <TwitterIcon />
                     </a>
                 </div>
-                
-                <button
-                    className="btnResume"
-                    onClick={() => {
-                        window.open(
-                            "https://drive.google.com/file/d/1IDeFGHrIEF7ipYIPR1VNzQ-fxG8geQ_g/view?usp=sharing"
-                        );
-                    }}
-                >
+                <a href={resume} download>
+                <button className="btnResume">
                     Resume <GetAppIcon className="resume-dwnld" />
                 </button>
+                </a>
             </div>
             <Introduction />
             <section id="#techstack">
