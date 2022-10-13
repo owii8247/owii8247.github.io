@@ -12,7 +12,7 @@ const Statistic = () => {
             <h6>Of Coding</h6>
             </div>
             <div>
-            <div className='circle-even'><p>320+</p></div>
+            <div className='circle-even'><p>600+</p></div>
             <h5>HackerRank</h5>
             <h6>Points</h6>
             </div>
@@ -22,12 +22,12 @@ const Statistic = () => {
             <h6>Commits</h6>
             </div>
             <div>
-            <div className='circle-even'><p>5</p></div>
+            <div className='circle-even'><p>6</p></div>
             <h5>Projects</h5>
             <h6>Done</h6>
             </div>
             <div>
-            <div className='circle'><p>100+</p></div>
+            <div className='circle'><p>200+</p></div>
             <h5>Hours</h5>
             <h6>Of Soft Skills</h6>
             </div>
