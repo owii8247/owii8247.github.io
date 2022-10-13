@@ -1,6 +1,6 @@
 import React from "react";
 import "./Introduction.css";
-import "./Techstacks.css"
+import "./Skills.css"
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 
@@ -8,7 +8,9 @@ import { ThemeContext } from "../../Context/theme";
 const Skills = () => {
     const [{ themename }] = React.useContext(ThemeContext);
   return (
-    <div>
+    
+    <div style={{marginTop:"10rem"}}>
+      
         <h2 className="section__title different">SKILLS</h2>
         <div style={{paddingLeft:"35%"}}>
               <h4 className="different">

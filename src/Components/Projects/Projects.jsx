@@ -19,6 +19,54 @@ export const Projects = () => {
             <div className="section">
                 <h2 className="section__title different">Projects</h2>
                 <div className="allProjects">
+                <div className="projects_container" data-aos="fade-right">
+                        <div className="project">
+                            <div className="project_videocontainer">
+                                <div>
+                                    <img
+                                        src="https://user-images.githubusercontent.com/101389401/194386115-bb71c308-ceeb-41a2-a9bf-700defde1c18.png"
+                                        alt="Fraazo"
+                                    />
+                                </div>
+                            </div>
+                            <div className="project_information">
+                                <h2>Urban Company</h2>
+                                <p>
+                                    Urban Company is Asia's largest online home service platform.
+                                    Collaborative project with team of 4 members completed in 5days.
+                                </p>
+                                <div>
+
+                                    <FaReact />
+                                    <SiChakraui />
+                                    <SiSwiper />
+                                    <VscJson />
+                                    <SiHeroku />
+                                    <SiVercel />
+                                </div>
+                                <div>
+                                    <a
+                                        href="https://urban-company-ruddy.vercel.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt onbt">
+                                            Go Live
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/sonuprasad66/tense-visitor-349"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt">
+                                            View Code
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="projects_container" data-aos="fade-right">
                         <div className="project">
                             <div className="project_videocontainer">
@@ -196,6 +244,53 @@ export const Projects = () => {
                                     </a>
                                     <a
                                         href="https://github.com/owii8247/Unit3_Overstock_Project"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt">
+                                            View Code
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="projects_container" data-aos="fade-right">
+                        <div className="project">
+                            <div className="project_videocontainer">
+                                <div>
+                                    <img
+                                        src="https://user-images.githubusercontent.com/100846987/171915023-44e6b950-8616-46b9-ad83-d5a6b67e75ad.PNG"
+                                        alt="Shopbop"
+                                    />
+                                </div>
+                            </div>
+                            <div className="project_information">
+                                <h2>Youtube Mini</h2>
+                                <p>
+                                YouTube Mini App is small application which work similarly as YouTube without any add.
+                                You can search anything available on YouTube.
+                                
+                                </p>
+                                <div>
+                                    <SiHtml5 />
+                                    <DiCss3 />
+                                    <SiJavascript />
+                                    
+                                </div>
+                                <div>
+                                    <a
+                                        href="https://superb-panda-f470b5.netlify.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt">
+                                            Go Live
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/owii8247/YouTube_Mini_App"
                                         target="_blank"
                                         rel="noreferrer"
                                     >

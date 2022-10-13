@@ -84,6 +84,7 @@ export const About = () => {
             <section id="#techstack">
             <Techstacks />
             </section>
+            
             <section id="#skills">
             <Skills />
             </section>

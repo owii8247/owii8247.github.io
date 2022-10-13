@@ -7,7 +7,13 @@ import {
     SiChakraui,
     SiSwiper,
     SiNetlify,
-    SiVercel
+    SiVercel,
+    SiNodedotjs,
+    SiNodemon,
+    SiPostman,
+    SiExpress,
+    SiMongodb,
+    SiRailway
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
@@ -69,9 +75,37 @@ export const Techstacks = () => {
                         <SiHeroku />
                         <h5>Heroku</h5>
                     </div>
+                    <div>
+                        <SiRailway />
+                        <h5>Railway</h5>
+                    </div>
+                    <div>
+                        <SiNodedotjs />
+                        <h5>Node Js</h5>
+                    </div>
+                    <div>
+                        <SiNodemon />
+                        <h5>Nodemon</h5>
+                    </div>
+                    <div>
+                        <SiPostman />
+                        <h5>Postman</h5>
+                    </div>
+                    <div>
+                        <SiExpress />
+                        <h5>Express</h5>
+                    </div>
+                    <div>
+                        <SiMongodb />
+                        <h5>Mongodb</h5>
+                    </div>
+                    
+
+                    
 
                 </div>
             </div>
+            
         </>
     );
 };
