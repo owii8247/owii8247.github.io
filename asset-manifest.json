@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c5a0fa2.css",
-    "main.js": "/static/js/main.d10c939f.js",
+    "main.css": "/static/css/main.b8d6497c.css",
+    "main.js": "/static/js/main.56ed0ecc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Owais_Athar_Resume.pdf": "/static/media/Owais_Athar_Resume.f6e8f09e5e32ebd61f7e.pdf",
-    "static/media/ProfPic.jpg": "/static/media/ProfPic.0f518405449dafd53b3e.jpg",
+    "static/media/ProfPic.jpg": "/static/media/ProfPic.ed8b57f71238174b04ff.jpg",
     "index.html": "/index.html",
-    "main.0c5a0fa2.css.map": "/static/css/main.0c5a0fa2.css.map",
-    "main.d10c939f.js.map": "/static/js/main.d10c939f.js.map",
+    "main.b8d6497c.css.map": "/static/css/main.b8d6497c.css.map",
+    "main.56ed0ecc.js.map": "/static/js/main.56ed0ecc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c5a0fa2.css",
-    "static/js/main.d10c939f.js"
+    "static/css/main.b8d6497c.css",
+    "static/js/main.56ed0ecc.js"
   ]
 }
