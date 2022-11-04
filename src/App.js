@@ -10,6 +10,7 @@ import GetInTouch from './Components/GetInTouch/GetInTouch';
 import { Footer } from './Components/Footer/Footer';
 import { ScrollToTop } from './Components/ScrollToTop/ScrollToTop';
 import Statistic from './Components/Statistic/Statistic';
+import { Gitstat } from './Components/Gitstat/Gitstat';
 
 
 
@@ -33,7 +34,8 @@ function App() {
         <GitHub />
         </section>
         <section>
-        <Statistic />
+        {/* <Statistic /> */}
+        <Gitstat />
         </section>
         <section id="#contact">
           <GetInTouch />

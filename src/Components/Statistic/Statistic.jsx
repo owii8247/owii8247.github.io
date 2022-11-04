@@ -1,4 +1,5 @@
 import React from 'react'
+import { Gitstat } from '../Gitstat/Gitstat'
 import "./Statistic.css"
 
 const Statistic = () => {
@@ -33,6 +34,8 @@ const Statistic = () => {
             </div>
             
         </div>
+
+        <Gitstat />
     </div>
   )
 }
