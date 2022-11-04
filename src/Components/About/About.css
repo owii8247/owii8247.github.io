@@ -71,3 +71,11 @@
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 300px) {
+  .mobileHead {
+    align-content: center;
+    margin: auto;
+    padding: 25px;
+  }
+}

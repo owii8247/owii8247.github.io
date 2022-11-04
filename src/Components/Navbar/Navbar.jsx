@@ -19,7 +19,7 @@ export const Navbar = () => {
   };
   return (
     <>
-    {/* <div style={{border:"2px solid red", position:"fixed"}}> */}
+    <div >
       <nav className="center nav">
         <ul
           style={{ display: showNavList ? "flex" : null }}
@@ -101,7 +101,7 @@ export const Navbar = () => {
           {showNavList ? <CloseIcon /> : <MenuIcon />}
         </button>
       </nav>
-      {/* </div> */}
+      </div>
     </>
   );
 };

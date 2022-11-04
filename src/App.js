@@ -9,7 +9,7 @@ import GitHub from './Components/GitHub/GitHub';
 import GetInTouch from './Components/GetInTouch/GetInTouch';
 import { Footer } from './Components/Footer/Footer';
 import { ScrollToTop } from './Components/ScrollToTop/ScrollToTop';
-import Statistic from './Components/Statistic/Statistic';
+// import Statistic from './Components/Statistic/Statistic';
 import { Gitstat } from './Components/Gitstat/Gitstat';
 
 
@@ -21,12 +21,14 @@ function App() {
   }, []);
   return (
     <div id="top" className={`${themename} app`}>
-      <section id="#home">
+      <section id="">
+      
         <Header />
       </section>
       <main>
+        <br/><br/><br/><br/>
         <About />
-        <section id="#projects">
+        <section id="">
           <Projects />
         </section>
         <br />
@@ -37,7 +39,7 @@ function App() {
         {/* <Statistic /> */}
         <Gitstat />
         </section>
-        <section id="#contact">
+        <section id="">
           <GetInTouch />
         </section>
         </main>
