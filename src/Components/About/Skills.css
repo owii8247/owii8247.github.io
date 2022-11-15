@@ -51,13 +51,14 @@
     background-color: transparent;
 }
 
-@media (max-width: 600px) {
+@media all and (max-width: 800px) and (min-width: 400px)  {
     .techsection {
         height: 100vh;
     }
 
     .techsection>div {
         width: 30%;
+        
         margin-left: 7%;
         margin-right: 12%;
         margin-bottom: 2%;
@@ -65,7 +66,7 @@
     }
 }
 
-@media (max-width: 300px) {
+@media all and (max-width: 400px) and (min-width: 50px){
     .techsection {
         height: 100vh;
     }

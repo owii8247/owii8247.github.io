@@ -81,12 +81,12 @@ export const About = () => {
                 </a>
             </div>
             <Introduction />
-            <section id="">
+            <section id="techstack">
             
             <Techstacks />
             </section>
             
-            <section id="">
+            <section id="skills">
                
             <Skills />
             </section>

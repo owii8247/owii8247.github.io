@@ -55,7 +55,7 @@
 
 
 
-@media (max-width: 600px) {
+@media all and (max-width: 1022px) and (min-width: 800px) {
   .mobileHead {
     align-content: center;
   }
@@ -72,7 +72,7 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   .mobileHead {
     align-content: center;
     margin: auto;

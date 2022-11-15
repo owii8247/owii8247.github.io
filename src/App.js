@@ -21,14 +21,14 @@ function App() {
   }, []);
   return (
     <div id="top" className={`${themename} app`}>
-      <section id="">
+      <section id="about">
       
         <Header />
       </section>
       <main>
         <br/><br/><br/><br/>
         <About />
-        <section id="">
+        <section id="projects">
           <Projects />
         </section>
         <br />
@@ -39,7 +39,7 @@ function App() {
         {/* <Statistic /> */}
         <Gitstat />
         </section>
-        <section id="">
+        <section id="contact">
           <GetInTouch />
         </section>
         </main>

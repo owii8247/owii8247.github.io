@@ -17,7 +17,7 @@
  
  
   
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .nav__list {
       display: none;
       flex-direction: column;

@@ -23,14 +23,21 @@ img {
     width: auto;
 }
 
-@media (max-width: 600px) {
+@media all and (max-width: 800px) and (min-width: 375px) {
 
     .box2 {
+        margin: auto;
+        width: 80%;
         display: grid;
-        justify-content: center;
+        /* justify-content: center; */
+        place-items: center;
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(1,1fr);
         
+        
+    }
+    .box1{
+        margin: auto;
         
     }
 
@@ -39,10 +46,23 @@ img {
     }
 }
 
-@media (max-width: 300px) {
-
+@media all and (max-width: 375px) and (min-width: 80px) {
+.box1{
+    /* width: 60%; */
+    margin: auto;
+    place-items: center;
+}
+.box2{
+    margin: auto;
+    width: 80%;
+    display: grid;
+        place-items: center;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        
+}
     img {
-        width: 80%;
+        width: auto;
         /* padding: 5px;
         margin-left: 25px; */
      

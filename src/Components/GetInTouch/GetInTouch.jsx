@@ -67,6 +67,7 @@ const GetInTouch = () => {
             
           </div>
           </div>
+          <br />
           <div className="email-box"><Email /></div>
         </div>
       </div>
