@@ -23,7 +23,7 @@ export const About = () => {
                 <Type />
                 <p className="about__desc" data-aos="fade-right">
                     Aspiring Full Stack Web Developer- Team player with leadership quality, Quick learner,
-                    working extensively on React and Redux, looking forward to working on a product-based company.
+                    working extensively on MERN, HTML, CSS, and JavaScript looking forward to working in a product-based company.
                     Attired with a variety of tools & technologies and keen to
                     learn new one.
                 </p>

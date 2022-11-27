@@ -20,8 +20,8 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone 👋 I'am{" "}
-                <span className="different">Md Owais Athar </span> and I am from{" "}
+                Hi Everyone 👋 My name is{" "}
+                <span className="different">Md Owais Athar </span> from{" "}
                 <span className="different">
                   {" "}
                   Giridih, Jharkhand (India)
@@ -33,8 +33,8 @@ export const Introduction = () => {
                 </span>
                 . In January 2022 I Joined {" "}
                 <span className="different">Masai School</span> a military type
-                coding school. I got hand on experience on frontend technologies,
-                HTML, CSS, JavaScript, React and Redux.{" "}
+                coding school. I got hand on experience in frontend and backend technologies MERN,
+                HTML, CSS, JavaScript.{" "}
                 <span className="different">
                  1000+ hours of Coding
                 </span>
