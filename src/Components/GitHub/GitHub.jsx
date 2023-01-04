@@ -5,22 +5,22 @@ import "./GitHub.css";
 
 
 const GitHub = () => {
-  const selectLastHalfYear = contributions => {
-    const currentYear = new Date().getFullYear();
-    const currentMonth = new Date().getMonth();
-    const shownMonths = 9;
+  // const selectLastHalfYear = contributions => {
+  //   const currentYear = new Date().getFullYear();
+  //   const currentMonth = new Date().getMonth();
+  //   const shownMonths = 9;
 
-    return contributions.filter(day => {
-      const date = new Date(day.date);
-      const monthOfDay = date.getMonth();
+  //   return contributions.filter(day => {
+  //     const date = new Date(day.date);
+  //     const monthOfDay = date.getMonth();
 
-      return (
-        date.getFullYear() === currentYear &&
-        monthOfDay > currentMonth - shownMonths &&
-        monthOfDay <= currentMonth
-      );
-    });
-  };
+  //     return (
+  //       date.getFullYear() === currentYear &&
+  //       monthOfDay > currentMonth - shownMonths &&
+  //       monthOfDay <= currentMonth
+  //     );
+  //   });
+  // };
 
   return (
     <div>
@@ -30,8 +30,8 @@ const GitHub = () => {
         <GitHubCalendar style={{margin:"auto"}}
           username='owii8247'
           
-          transformData={selectLastHalfYear}
-          hideColorLegend
+          // transformData={selectLastHalfYear}
+          // hideColorLegend
         />
       </div>
     </div>
