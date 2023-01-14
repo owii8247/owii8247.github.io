@@ -10,7 +10,7 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import Skills from "./Skills";
-import resume from "../../assets/Owais_Athar_Resume.pdf"
+import resume from "../../assets/Owais-Athar-Resume.pdf"
 
 
 export const About = () => {

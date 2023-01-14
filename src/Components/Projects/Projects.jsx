@@ -8,7 +8,11 @@ import {
     SiSwiper,
     SiHeroku,
     SiVercel,
-    SiNetlify
+    SiNetlify,
+    SiMongodb,
+    SiExpress,
+    SiNodedotjs,
+    SiJsonwebtokens
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -19,6 +23,55 @@ export const Projects = () => {
             <div className="section">
                 <h2 className="section__title different">Projects</h2>
                 <div className="allProjects">
+                <div className="projects_container" data-aos="fade-right">
+                        <div className="project">
+                            <div className="project_videocontainer">
+                                <div>
+                                    <img
+                                        src="https://user-images.githubusercontent.com/100846987/212459270-e62d3bd1-d9ff-4b83-9fb2-bfb3d9c32734.PNG"
+                                        alt="foundit"
+                                    />
+                                </div>
+                            </div>
+                            <div className="project_information">
+                                <h2>foundit (Monster)</h2>
+                                <p>
+                                foundit, formerly Monster, foundit is Full Stack MERN Website 
+                                 with CRUD functionalities at Admin Dashboard.
+                                </p>
+                                <div>
+                                <SiMongodb />
+                                    <SiExpress />
+                                    <FaReact />
+                                    <SiNodedotjs />
+                                    <SiJsonwebtokens />
+                                    <SiChakraui />
+                                    <SiSwiper />
+                                    <SiVercel />
+                                </div>
+                                <div>
+                                    <a
+                                        href="https://monster-gamma.vercel.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt onbt">
+                                            Go Live
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/owii8247/foundit_clone"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt">
+                                            View Code
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <div className="projects_container" data-aos="fade-right">
                         <div className="project">
                             <div className="project_videocontainer">
@@ -161,7 +214,7 @@ export const Projects = () => {
 
                         </div>
                     </div>
-                    <div className="projects_container" data-aos="fade-right">
+                    {/* <div className="projects_container" data-aos="fade-right">
                         <div className="project">
                             <div className="project_videocontainer">
                                 <div>
@@ -209,7 +262,7 @@ export const Projects = () => {
                             </div>
 
                         </div>
-                    </div>
+                    </div> */}
                     <div className="projects_container" data-aos="fade-right">
                         <div className="project">
                             <div className="project_videocontainer">
