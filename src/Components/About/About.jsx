@@ -11,6 +11,7 @@ import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import Skills from "./Skills";
 import resume from "../../assets/Owais-Athar-Resume.pdf"
+import { Journey } from "./Journey";
 
 
 export const About = () => {
@@ -80,7 +81,14 @@ export const About = () => {
                 </button>
                 </a>
             </div>
+            
             <Introduction />
+            
+            
+
+            <section>
+                <Journey />
+            </section>
             
             <section id="techstack">
             

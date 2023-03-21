@@ -4,6 +4,7 @@ import "./GitHub.css";
 
 
 
+
 const GitHub = () => {
   // const selectLastHalfYear = contributions => {
   //   const currentYear = new Date().getFullYear();
@@ -24,6 +25,7 @@ const GitHub = () => {
 
   return (
     <div>
+     
       <h2 className="section__title different">DAYS I CODE</h2>
       
       <div className='github_Calender'>

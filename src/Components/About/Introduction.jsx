@@ -26,18 +26,23 @@ export const Introduction = () => {
                   {" "}
                   Giridih, Jharkhand (India)
                 </span>
-                . I graduated in B.Tech Mechanical Engineering
+                . A Full Stack MERN Developer
                 from{" "}
                 <span className="different">
-                  GL Bajaj Institute Of Technology & Management, Greater Noida (U.P)
+                  Masai School
                 </span>
-                . In January 2022 I Joined {" "}
-                <span className="different">Masai School</span> a military type
-                coding school. I got hand on experience in frontend and backend technologies MERN,
-                HTML, CSS, JavaScript.{" "}
+                
+                <span className="different"></span> . I got hand on experience in frontend and backend technologies 
+                working extensively on MERN Stack,
+                HTML5, CSS3, JavaScript. Spend {" "}
                 <span className="different">
-                 1000+ hours of Coding
+                 2000+ {" "}
                 </span>
+                hours of Coding, {" "}
+                <span className="different">
+                 200+ {" "}
+                </span>
+                hours of Soft Skill.
                 
               </h4>
 
