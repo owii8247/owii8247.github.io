@@ -13,13 +13,13 @@ import {
     SiPostman,
     SiExpress,
     SiMongodb,
-    SiRailway
+    SiRailway,SiAndroidstudio ,SiXcode 
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
+import { SiJavascript, SiHeroku,SiMysql  } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
-
+import { FaPhp,FaLaravel,FaNpm   } from "react-icons/fa";
 export const Techstacks = () => {
     return (
         <>
@@ -45,8 +45,32 @@ export const Techstacks = () => {
                         <h5>React</h5>
                     </div>
                     <div>
+                        <FaReact />
+                        <h5>React Native</h5>
+                    </div>
+                    <div>
                         <SiRedux />
                         <h5>Redux</h5>
+                    </div>
+                    <div>
+                        <FaPhp />
+                        <h5>Php</h5>
+                    </div>
+                    <div>
+                        <FaLaravel  />
+                        <h5>Laravel</h5>
+                    </div>
+                    <div>
+                        <SiMysql  />
+                        <h5>MySQL</h5>
+                    </div>
+                    <div>
+                        <SiAndroidstudio  />
+                        <h5>Android Studio</h5>
+                    </div>
+                    <div>
+                        <SiXcode  />
+                        <h5>XCode</h5>
                     </div>
                     <div>
                         <SiChakraui />
@@ -72,13 +96,14 @@ export const Techstacks = () => {
                         <SiVercel />
                         <h5>Vercel</h5>
                     </div>
-                    <div>
-                        <SiHeroku />
-                        <h5>Heroku</h5>
-                    </div>
+                    
                     <div>
                         <SiRailway />
                         <h5>Railway</h5>
+                    </div>
+                    <div>
+                        <FaNpm  />
+                        <h5>NPM</h5>
                     </div>
                     <div>
                         <SiNodedotjs />
@@ -98,7 +123,7 @@ export const Techstacks = () => {
                     </div>
                     <div>
                         <SiMongodb />
-                        <h5>Mongodb</h5>
+                        <h5>MongoDB</h5>
                     </div>
                     
 

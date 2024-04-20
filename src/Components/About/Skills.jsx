@@ -23,6 +23,12 @@ const Skills = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
+                BackEnd Development{" "}
+              </h4>
+              <h4 className="different">
+                <span className="icons">
+                  <ExitToAppIcon />
+                </span>
                 Data Structure Algorithm{" "}
               </h4>
               <h4 className="different">

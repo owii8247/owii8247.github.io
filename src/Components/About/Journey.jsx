@@ -30,8 +30,42 @@ export const Journey = () => {
           My <span className="different">Journey </span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-          
-          
+
+          <VerticalTimelineElement
+            date={"May 2023 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Full Stack Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Explore & Do Technologies Pvt Ltd
+            </h4>
+            <p data-aos="fade-right">
+              Experienced professional with strong problem-solving and ownership skills. Spearheaded development and delivery of 5 web projects, crafted 4 Android applications, and engineered 3 iOS applications
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"Jan 2022 - Jan 2023"}
             contentStyle={{
@@ -64,8 +98,8 @@ export const Journey = () => {
               Masai School
             </h4>
             <p data-aos="fade-right">
-              I got hand on experience on Frontend and 
-              Backend Technologies. 4 Collaborative, 4 Individual Projects 
+              I got hand on experience on Frontend and
+              Backend Technologies. 4 Collaborative, 4 Individual Projects
               and 20+ Mini Projects.
             </p>
           </VerticalTimelineElement>
@@ -99,11 +133,11 @@ export const Journey = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-             Dish TV
+              Dish TV
             </h4>
             <p data-aos="fade-right">
-            Worked as a Freelancer in Dish TV. 
-            Resolving customer query in real time with CSAT 90%.
+              Worked as a Freelancer in Dish TV.
+              Resolving customer query in real time with CSAT 90%.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -136,13 +170,13 @@ export const Journey = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-             IDTR, Jamshedpur : 76%
+              IDTR, Jamshedpur : 76%
             </h4>
             <p data-aos="fade-right">
-            Selected through Jharkhand Skill Development Mission Society (JSDM).
+              Selected through Jharkhand Skill Development Mission Society (JSDM).
             </p>
           </VerticalTimelineElement>
-         
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"Aug 2013 - June 2017"}
@@ -167,16 +201,16 @@ export const Journey = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Bachelor Of Technology 
+              Bachelor Of Technology
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-             Mechanical Engineering : 75.92%
+              Mechanical Engineering : 75.92%
             </h4>
             <p data-aos="fade-right">
-            GL Bajaj Institute Of Technology & Management
+              GL Bajaj Institute Of Technology & Management
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

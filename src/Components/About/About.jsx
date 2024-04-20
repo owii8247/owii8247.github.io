@@ -23,10 +23,7 @@ export const About = () => {
                 </h1>
                 <Type />
                 <p className="about__desc" data-aos="fade-right">
-                    Aspiring Full Stack Web Developer- Team player with leadership quality, Quick learner,
-                    working extensively on MERN, HTML, CSS, and JavaScript looking forward to working in a product-based company.
-                    Attired with a variety of tools & technologies and keen to
-                    learn new one.
+                Experienced Full Stack Developer proficient in MERN, React Native, Android & IOS Development. Demonstrated exceptional time-management and leadership skills, leading teams to successful project completion. A quick learner, consistently keeping up with the latest industry trends and technologies. Proven ability to collaborate effectively as a team player while also showcasing strong leadership qualities. Seeking opportunities to leverage skills and experience in a dynamic and innovative environment.
                 </p>
                 <div className="about__contact center">
                     <a

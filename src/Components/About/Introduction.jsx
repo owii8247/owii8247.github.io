@@ -26,34 +26,28 @@ export const Introduction = () => {
                   {" "}
                   Giridih, Jharkhand (India)
                 </span>
-                . A Full Stack MERN Developer
-                from{" "}
+                . As an Experienced Full Stack Developer, I specialize in web, Android, and iOS development with a <span className="different">
+                  1+ year
+                </span>  of hands-on experience at
+                {" "}
                 <span className="different">
-                  Masai School
+                  Explore & Do Technologies Pvt Ltd, Hyderabad
                 </span>
-                
-                <span className="different"></span> . I got hand on experience in frontend and backend technologies 
-                working extensively on MERN Stack,
-                HTML5, CSS3, JavaScript. Spend {" "}
-                <span className="different">
-                 2000+ {" "}
-                </span>
-                hours of Coding, {" "}
-                <span className="different">
-                 200+ {" "}
-                </span>
-                hours of Soft Skill.
-                
+
+                <span className="different"></span>  on frontend and backend technologies.
+                My expertise lies in a range of technologies including MERN Stack,
+                React, React Native, JavaScript, PHP, Laravel, Node.js, Express.js, MySQL, MongoDB, Chakra UI, Material UI and various Node Package Manager. Looking forward to exploring and diving deeper into the world of technology!
+
               </h4>
 
-       
+
             </div>
-            
+
           </div>
-          
+
         </div>
       </section>
-      
+
     </>
   );
 };
