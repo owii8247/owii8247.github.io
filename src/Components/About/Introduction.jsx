@@ -26,8 +26,8 @@ export const Introduction = () => {
                   {" "}
                   Giridih, Jharkhand (India)
                 </span>
-                . As an Experienced Full Stack Developer, I specialize in web, Android, and iOS development with a <span className="different">
-                  1+ year
+                . As an Experienced Full Stack Developer, I specialize in web, Android, and iOS development with nearly about <span className="different">
+                  2+ year's
                 </span>  of hands-on experience at
                 {" "}
                 <span className="different">

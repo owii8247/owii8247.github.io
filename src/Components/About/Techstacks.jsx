@@ -13,7 +13,9 @@ import {
     SiPostman,
     SiExpress,
     SiMongodb,
-    SiRailway,SiAndroidstudio ,SiXcode 
+    SiRailway,SiAndroidstudio ,SiXcode, 
+    SiTypescript,
+    SiNextdotjs
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript, SiHeroku,SiMysql  } from "react-icons/si";
@@ -98,8 +100,8 @@ export const Techstacks = () => {
                     </div>
                     
                     <div>
-                        <SiRailway />
-                        <h5>Railway</h5>
+                        <SiTypescript />
+                        <h5>Typescript</h5>
                     </div>
                     <div>
                         <FaNpm  />
@@ -110,8 +112,8 @@ export const Techstacks = () => {
                         <h5>Node Js</h5>
                     </div>
                     <div>
-                        <SiNodemon />
-                        <h5>Nodemon</h5>
+                        <SiNextdotjs />
+                        <h5>Next Js</h5>
                     </div>
                     <div>
                         <SiPostman />
