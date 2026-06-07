@@ -1,6 +1,6 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact } from "react-icons/fa";
+import { FaAws, FaFigma, FaReact } from "react-icons/fa";
 import {
     SiRedux,
     SiHtml5,
@@ -13,19 +13,22 @@ import {
     SiPostman,
     SiExpress,
     SiMongodb,
-    SiRailway,SiAndroidstudio ,SiXcode, 
+    SiRailway, SiAndroidstudio, SiXcode,
     SiTypescript,
-    SiNextdotjs
+    SiNextdotjs,
+    SiFastapi
 } from "react-icons/si";
+import { TbWebhook } from "react-icons/tb";
+import { FcServices } from "react-icons/fc";
 import { DiCss3 } from "react-icons/di";
-import { SiJavascript, SiHeroku,SiMysql  } from "react-icons/si";
+import { SiJavascript, SiHeroku, SiMysql } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
-import { FaPhp,FaLaravel,FaNpm   } from "react-icons/fa";
+import { FaPhp, FaLaravel, FaNpm, FaDocker } from "react-icons/fa";
 export const Techstacks = () => {
     return (
         <>
-        
+
             <div className="section main" data-aos="fade-right">
                 <h2 className="section__title different">TECH STACKS</h2>
                 <div className="techsection">
@@ -51,6 +54,26 @@ export const Techstacks = () => {
                         <h5>React Native</h5>
                     </div>
                     <div>
+                        <SiFastapi />
+                        <h5>Rest API</h5>
+                    </div>
+                    <div>
+                        <TbWebhook />
+                        <h5>Webhooks</h5>
+                    </div>
+                    <div>
+                        <FaAws />
+                        <h5>AWS</h5>
+                    </div>
+                    <div>
+                        <FcServices />
+                        <h5>Microservices</h5>
+                    </div>
+                    <div>
+                        <FaDocker />
+                        <h5>Docker</h5>
+                    </div>
+                    <div>
                         <SiRedux />
                         <h5>Redux</h5>
                     </div>
@@ -59,25 +82,30 @@ export const Techstacks = () => {
                         <h5>Php</h5>
                     </div>
                     <div>
-                        <FaLaravel  />
+                        <FaLaravel />
                         <h5>Laravel</h5>
                     </div>
                     <div>
-                        <SiMysql  />
+                        <SiMysql />
                         <h5>MySQL</h5>
                     </div>
                     <div>
-                        <SiAndroidstudio  />
+                        <SiAndroidstudio />
                         <h5>Android Studio</h5>
                     </div>
                     <div>
-                        <SiXcode  />
+                        <SiXcode />
                         <h5>XCode</h5>
                     </div>
                     <div>
                         <SiChakraui />
                         <h5>Chakra UI</h5>
                     </div>
+                    <div>
+                        <FaFigma />
+                        <h5>Figma</h5>
+                    </div>
+
                     <div>
                         <VscGithub />
                         <h5>Github</h5>
@@ -98,13 +126,13 @@ export const Techstacks = () => {
                         <SiVercel />
                         <h5>Vercel</h5>
                     </div>
-                    
+
                     <div>
                         <SiTypescript />
                         <h5>Typescript</h5>
                     </div>
                     <div>
-                        <FaNpm  />
+                        <FaNpm />
                         <h5>NPM</h5>
                     </div>
                     <div>
@@ -127,13 +155,13 @@ export const Techstacks = () => {
                         <SiMongodb />
                         <h5>MongoDB</h5>
                     </div>
-                    
 
-                    
+
+
 
                 </div>
             </div>
-            
+
         </>
     );
 };

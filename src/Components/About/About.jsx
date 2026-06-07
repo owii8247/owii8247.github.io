@@ -12,6 +12,7 @@ import { Techstacks } from "./Techstacks";
 import Skills from "./Skills";
 import resume from "../../assets/Md-Owais-Athar-Resume.pdf"
 import { Journey } from "./Journey";
+import { FaHubspot, FaInstagram, FaSuitcase, FaYoutube } from "react-icons/fa";
 
 
 export const About = () => {
@@ -70,6 +71,33 @@ export const About = () => {
                         rel="noreferrer"
                     >
                         <TwitterIcon />
+                    </a>
+                    <a
+                        href="https://www.naukri.com/minis/creator-dashboard"
+                        aria-label="Naukri Creator Hub"
+                        className="link link--icon"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FaSuitcase   />
+                    </a>
+                    <a
+                        href="https://www.youtube.com/@owii_codes"
+                        aria-label="YouTube"
+                        className="link link--icon"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FaYoutube />
+                    </a>
+                    <a
+                        href="https://www.instagram.com/owii_codes"
+                        aria-label="Instagram"
+                        className="link link--icon"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <FaInstagram />
                     </a>
                 </div>
                 <a href={resume} download>

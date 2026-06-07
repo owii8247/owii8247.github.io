@@ -27,17 +27,17 @@ export const Introduction = () => {
                   Giridih, Jharkhand (India)
                 </span>
                 . As an Experienced Full Stack Developer, I specialize in web, Android, and iOS development with nearly about <span className="different">
-                  2+ year's
-                </span>  of hands-on experience at
+                  3+ year's
+                </span>  of hands-on experience. Currently, I am working as a Full Stack Developer at
                 {" "}
                 <span className="different">
-                  Explore & Do Technologies Pvt Ltd, Hyderabad
+                  Technocrats Horizons Pvt Ltd, Hyderabad.
                 </span>
 
-                <span className="different"></span>  on frontend and backend technologies.
-                My expertise lies in a range of technologies including MERN Stack,
-                React, React Native, JavaScript, PHP, Laravel, Node.js, Express.js, MySQL, MongoDB, Chakra UI, Material UI and various Node Package Manager. Looking forward to exploring and diving deeper into the world of technology!
-
+                <span className="different"></span>
+                I specialize in end-to-end architecture, backend systems design, scalable frontend development, third-party integrations, AI/LLM Integration, Prompt Engineering and delivering highly performant, secure, production-ready applications. My toolbelt includes Node.js, Express.js, React, TypeScript, MongoDB, Redis, AWS, Docker, Microservices, and CI/CD, Material UI and various Node Package Manager. Looking forward to exploring and diving deeper into the world of technology!  
+                <span className="different"> </span>  
+                Beyond engineering, I'm a Naukri Creator Hub and YouTube Tech Creator with a 7.2K+ LinkedIn community - sharing tales of perseverance, learning, and building in public.
               </h4>
 
 

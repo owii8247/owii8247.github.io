@@ -30,9 +30,8 @@ export const Journey = () => {
           My <span className="different">Journey </span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-
-          <VerticalTimelineElement
-            date={"May 2023 - Present"}
+<VerticalTimelineElement
+            date={"June 2025 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -48,7 +47,42 @@ export const Journey = () => {
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-            icon={<SchoolIcon />}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Full Stack Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Technocrats Horizons Pvt Ltd
+            </h4>
+            <p data-aos="fade-right">
+              Leading end-to-end E-Commerce, LMS, and AI-driven platforms. Spearheading AI/LLM integration and prompt engineering for enhanced user experiences. Driving CI/CD pipelines and DevOps practices for seamless deployments. Mentoring junior developers and fostering a culture of innovation and excellence.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            date={"May 2023 - May 2025"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
           >
             <h3
               className="vertical-timeline-element-title"
