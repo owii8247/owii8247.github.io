@@ -23,7 +23,7 @@ export const Projects = () => {
             <div className="section">
                 <h2 className="section__title different">Projects</h2>
                 <div className="allProjects">
-                <div className="projects_container" data-aos="fade-right">
+                    <div className="projects_container" data-aos="fade-right">
                         <div className="project">
                             <div className="project_videocontainer">
                                 <div>
@@ -36,11 +36,11 @@ export const Projects = () => {
                             <div className="project_information">
                                 <h2>foundit (Monster)</h2>
                                 <p>
-                                foundit, formerly Monster, foundit is Full Stack MERN Website 
-                                 with CRUD functionalities at Admin Dashboard.
+                                    foundit, formerly Monster, foundit is Full Stack MERN Website
+                                    with CRUD functionalities at Admin Dashboard.
                                 </p>
                                 <div>
-                                <SiMongodb />
+                                    <SiMongodb />
                                     <SiExpress />
                                     <FaReact />
                                     <SiNodedotjs />
@@ -72,7 +72,7 @@ export const Projects = () => {
                             </div>
                         </div>
                     </div>
-                <div className="projects_container" data-aos="fade-right">
+                    <div className="projects_container" data-aos="fade-right">
                         <div className="project">
                             <div className="project_videocontainer">
                                 <div>
@@ -276,8 +276,8 @@ export const Projects = () => {
                             <div className="project_information">
                                 <h2>Overstock Website</h2>
                                 <p>
-                                We connect people with products and services in new and unexpected ways.
-                                Collaborative project with team of 6 and completed in 5days.
+                                    We connect people with products and services in new and unexpected ways.
+                                    Collaborative project with team of 6 and completed in 5days.
                                 </p>
                                 <div>
                                     <SiHtml5 />
@@ -322,15 +322,15 @@ export const Projects = () => {
                             <div className="project_information">
                                 <h2>Youtube Mini</h2>
                                 <p>
-                                YouTube Mini App is small application which work similarly as YouTube without any add.
-                                You can search anything available on YouTube.
-                                
+                                    YouTube Mini App is small application which work similarly as YouTube without any add.
+                                    You can search anything available on YouTube.
+
                                 </p>
                                 <div>
                                     <SiHtml5 />
                                     <DiCss3 />
                                     <SiJavascript />
-                                    
+
                                 </div>
                                 <div>
                                     <a
