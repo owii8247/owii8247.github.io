@@ -28,6 +28,102 @@ export const Projects = () => {
                             <div className="project_videocontainer">
                                 <div>
                                     <img
+                                        src="https://private-user-images.githubusercontent.com/100846987/611320096-34946027-8ef8-442d-9c5e-75fb45b1d5d4.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODIxNDYxNDMsIm5iZiI6MTc4MjE0NTg0MywicGF0aCI6Ii8xMDA4NDY5ODcvNjExMzIwMDk2LTM0OTQ2MDI3LThlZjgtNDQyZC05YzVlLTc1ZmI0NWIxZDVkNC5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDYyMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA2MjJUMTYzMDQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZDcyOTkxYTgwZTQ2MGEyODZhMjZjZTMzZjFlNTI5NGEyY2ExN2NlNTNmNjExMmViOGYyZWEwOTk4MjUxMzNlNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.MUcRFXYDK58qB9J12zHNV4usDuo87Od8cstP7sst61E"
+                                        alt="premium-website"
+                                    />
+                                </div>
+                            </div>
+                            <div className="project_information">
+                                <h2>Premium Website</h2>
+                                <p>
+                                    Modern Transportation & Logistics Platform English & Arabic Support (RTL/LTR), Dark & Light Themes
+                                </p>
+                                <div>
+                                    <SiMongodb />
+                                    <SiExpress />
+                                    <FaReact />
+                                    <SiNodedotjs />
+                                    <SiJsonwebtokens />
+                                    <SiChakraui />
+                                    <SiSwiper />
+                                    <SiVercel />
+                                </div>
+                                <div>
+                                    <a
+                                        href="https://premium-webdesign.lovable.app"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt onbt">
+                                            Go Live
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/owii8247/premium-webdesign"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt">
+                                            View Code
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="projects_container" data-aos="fade-right">
+                        <div className="project">
+                            <div className="project_videocontainer">
+                                <div>
+                                    <img
+                                        src="https://private-user-images.githubusercontent.com/100846987/611326383-808ee863-0dcc-49ec-a6cb-d536a10be919.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODIxNDcwMzAsIm5iZiI6MTc4MjE0NjczMCwicGF0aCI6Ii8xMDA4NDY5ODcvNjExMzI2MzgzLTgwOGVlODYzLTBkY2MtNDllYy1hNmNiLWQ1MzZhMTBiZTkxOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYyMlQxNjQ1MzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZmQwZDg1OTliNmI3YTFkYWYyMGVmMTY2OTI2YTk5NTg5YTQ1ZTQwMmUyNjU5M2Y3YTE2NjA1Y2I3ZjRiMGY5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.iQjFUh0CB-xDnojyX7y-TTt-FE8eEgkWmTFHY1FWr40"
+                                        alt="wood-cabinet-factory"
+                                    />
+                                </div>
+                            </div>
+                            <div className="project_information">
+                                <h2>Wood Cabinet Factory</h2>
+                                <p>
+                                    Wood Cabinet Factory is a Full Stack MERN Website with CRUD functionalities at Admin Dashboard.
+                                </p>
+                                <div>
+                                    <SiMongodb />
+                                    <SiExpress />
+                                    <FaReact />
+                                    <SiNodedotjs />
+                                    <SiJsonwebtokens />
+                                    <SiChakraui />
+                                    <SiSwiper />
+                                    <SiVercel />
+                                </div>
+                                <div>
+                                    <a
+                                        href="https://wood-cabinet-factory.lovable.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt onbt">
+                                            Go Live
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/owii8247/ember-catalog.git"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt">
+                                            View Code
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="projects_container" data-aos="fade-right">
+                        <div className="project">
+                            <div className="project_videocontainer">
+                                <div>
+                                    <img
                                         src="https://user-images.githubusercontent.com/100846987/212459270-e62d3bd1-d9ff-4b83-9fb2-bfb3d9c32734.PNG"
                                         alt="foundit"
                                     />
