@@ -53,6 +53,15 @@
 
 }
 
+.about__updated {
+    margin-top: 8px;
+    font-size: 10px;
+    color: #8b8b8b;
+    opacity: 0.8;
+    letter-spacing: 0.3px;
+    font-style: italic;
+}
+
 
 
 @media all and (max-width: 1022px) and (min-width: 800px) {

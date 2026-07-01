@@ -13,6 +13,7 @@ import Skills from "./Skills";
 import resume from "../../assets/Md-Owais-Athar-Resume.pdf"
 import { Journey } from "./Journey";
 import { FaHubspot, FaInstagram, FaSuitcase, FaYoutube } from "react-icons/fa";
+import { LAST_UPDATED } from "../../utils/lastUpdated";
 
 
 export const About = () => {
@@ -24,7 +25,10 @@ export const About = () => {
                 </h1>
                 <Type />
                 <p className="about__desc" data-aos="fade-right">
-                Experienced Full Stack Developer proficient in MERN, React Native, Android & IOS Development. Demonstrated exceptional time-management and leadership skills, leading teams to successful project completion. A quick learner, consistently keeping up with the latest industry trends and technologies. Proven ability to collaborate effectively as a team player while also showcasing strong leadership qualities. Seeking opportunities to leverage skills and experience in a dynamic and innovative environment.
+                    Experienced Full Stack Developer proficient in MERN, React Native, Android & IOS Development. Demonstrated exceptional time-management and leadership skills, leading teams to successful project completion. A quick learner, consistently keeping up with the latest industry trends and technologies. Proven ability to collaborate effectively as a team player while also showcasing strong leadership qualities. Seeking opportunities to leverage skills and experience in a dynamic and innovative environment.
+                </p>
+                <p className="about__updated">
+                    🚀 Last updated: {LAST_UPDATED}
                 </p>
                 <div className="about__contact center">
                     <a
@@ -79,7 +83,7 @@ export const About = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <FaSuitcase   />
+                        <FaSuitcase />
                     </a>
                     <a
                         href="https://www.youtube.com/@owii_codes"
@@ -101,30 +105,30 @@ export const About = () => {
                     </a>
                 </div>
                 <a href={resume} download>
-                <button className="btnResume">
-                    Resume <GetAppIcon className="resume-dwnld" />
-                </button>
+                    <button className="btnResume">
+                        Resume <GetAppIcon className="resume-dwnld" />
+                    </button>
                 </a>
             </div>
-            
+
             <Introduction />
-            
-            
+
+
 
             <section>
                 <Journey />
             </section>
-            
+
             <section id="techstack">
-            
-            <Techstacks />
+
+                <Techstacks />
             </section>
-            
+
             <section id="skills">
-               
-            <Skills />
+
+                <Skills />
             </section>
-            
+
 
         </>
     );
