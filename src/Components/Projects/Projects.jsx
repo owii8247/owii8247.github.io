@@ -12,7 +12,13 @@ import {
     SiMongodb,
     SiExpress,
     SiNodedotjs,
-    SiJsonwebtokens
+    SiJsonwebtokens,
+    SiTailwindcss,
+    SiPostgresql,
+    SiTypescript,
+    SiVite,
+    SiGooglecloud,
+    SiSqlite
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -22,13 +28,61 @@ export const Projects = () => {
         <>
             <div className="section">
                 <h2 className="section__title different">Projects</h2>
-                <div className="allProjects">
+                <div className="allProjects">           
                     <div className="projects_container" data-aos="fade-right">
                         <div className="project">
                             <div className="project_videocontainer">
                                 <div>
                                     <img
-                                        src="https://private-user-images.githubusercontent.com/100846987/611320096-34946027-8ef8-442d-9c5e-75fb45b1d5d4.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODIxNDYxNDMsIm5iZiI6MTc4MjE0NTg0MywicGF0aCI6Ii8xMDA4NDY5ODcvNjExMzIwMDk2LTM0OTQ2MDI3LThlZjgtNDQyZC05YzVlLTc1ZmI0NWIxZDVkNC5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDYyMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA2MjJUMTYzMDQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZDcyOTkxYTgwZTQ2MGEyODZhMjZjZTMzZjFlNTI5NGEyY2ExN2NlNTNmNjExMmViOGYyZWEwOTk4MjUxMzNlNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.MUcRFXYDK58qB9J12zHNV4usDuo87Od8cstP7sst61E"
+                                        src="https://github.com/user-attachments/assets/c311b7cb-1808-4589-98ce-38d7646e326b"
+                                        alt="linklens-insight-hub"
+                                    />
+                                </div>
+                            </div>
+                            <div className="project_information">
+                                <h2>Linklens Insight Hub</h2>
+                                <p>
+                                    LinkLens is a premium URL shortener with deep, real-time click analytics. 
+                                </p>
+                                <div>
+                                    <SiVite />
+                                    <SiPostgresql  />
+                                    <SiExpress />
+                                    <FaReact />
+                                    <SiTypescript />
+                                    <SiNodedotjs />
+                                    <SiJsonwebtokens />
+                                    <SiTailwindcss  />
+                                </div>
+                                <div>
+                                    <a
+                                        href="https://linklens-insight-hub.lovable.app/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt onbt">
+                                            Go Live
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/owii8247/linklens-pro"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt">
+                                            View Code
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="projects_container" data-aos="fade-right">
+                        <div className="project">
+                            <div className="project_videocontainer">
+                                <div>
+                                    <img
+                                        src="https://github.com/user-attachments/assets/34946027-8ef8-442d-9c5e-75fb45b1d5d4"
                                         alt="premium-website"
                                     />
                                 </div>
@@ -36,17 +90,15 @@ export const Projects = () => {
                             <div className="project_information">
                                 <h2>Premium Website</h2>
                                 <p>
-                                    Modern Transportation & Logistics Platform English & Arabic Support (RTL/LTR), Dark & Light Themes
+                                    Modern Transportation & Logistics Platform English & Arabic Support (RTL/LTR), Dark & Light Themes.
                                 </p>
                                 <div>
-                                    <SiMongodb />
-                                    <SiExpress />
+                                    <SiVite />
                                     <FaReact />
                                     <SiNodedotjs />
                                     <SiJsonwebtokens />
-                                    <SiChakraui />
-                                    <SiSwiper />
-                                    <SiVercel />
+                                    <SiTypescript />
+                                    <SiTailwindcss  />
                                 </div>
                                 <div>
                                     <a
@@ -76,7 +128,7 @@ export const Projects = () => {
                             <div className="project_videocontainer">
                                 <div>
                                     <img
-                                        src="https://private-user-images.githubusercontent.com/100846987/611326383-808ee863-0dcc-49ec-a6cb-d536a10be919.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODIxNDcwMzAsIm5iZiI6MTc4MjE0NjczMCwicGF0aCI6Ii8xMDA4NDY5ODcvNjExMzI2MzgzLTgwOGVlODYzLTBkY2MtNDllYy1hNmNiLWQ1MzZhMTBiZTkxOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYyMlQxNjQ1MzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZmQwZDg1OTliNmI3YTFkYWYyMGVmMTY2OTI2YTk5NTg5YTQ1ZTQwMmUyNjU5M2Y3YTE2NjA1Y2I3ZjRiMGY5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.iQjFUh0CB-xDnojyX7y-TTt-FE8eEgkWmTFHY1FWr40"
+                                        src="https://github.com/user-attachments/assets/808ee863-0dcc-49ec-a6cb-d536a10be919"
                                         alt="wood-cabinet-factory"
                                     />
                                 </div>
@@ -87,14 +139,14 @@ export const Projects = () => {
                                     Wood Cabinet Factory is a Full Stack MERN Website with CRUD functionalities at Admin Dashboard.
                                 </p>
                                 <div>
-                                    <SiMongodb />
+                                    <SiPostgresql />
                                     <SiExpress />
                                     <FaReact />
+                                    <SiVite />
                                     <SiNodedotjs />
                                     <SiJsonwebtokens />
-                                    <SiChakraui />
-                                    <SiSwiper />
-                                    <SiVercel />
+                                    <SiTypescript />
+                                    <SiTailwindcss  />
                                 </div>
                                 <div>
                                     <a
@@ -108,6 +160,54 @@ export const Projects = () => {
                                     </a>
                                     <a
                                         href="https://github.com/owii8247/ember-catalog.git"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt">
+                                            View Code
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="projects_container" data-aos="fade-right">
+                        <div className="project">
+                            <div className="project_videocontainer">
+                                <div>
+                                    <img
+                                        src="https://i.ibb.co/kg9txd6j/615846456-73b52ea5-ff75-470a-bd7a-f3c704e83bb9.png"
+                                        alt="offline-billing-pro"
+                                    />
+                                </div>
+                            </div>
+                            <div className="project_information">
+                                <h2>Offline Billing Pro</h2>
+                                <p>
+                                    A high-performance, offline-first desktop application calibrated specifically for preprinted wholesale ledgers and thermal rolls.
+                                </p>
+                                <div>
+                                    <SiVite />
+                                    <FaReact />
+                                    <SiGooglecloud  />
+                                    <SiSqlite />
+                                    <SiNodedotjs />
+                                    <SiJsonwebtokens />
+                                    <SiTypescript />
+                                    <SiTailwindcss  />
+                                </div>
+                                <div>
+                                    <a
+                                        href="#"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span type="button" className="btns onbt onbt">
+                                            Go Live
+                                        </span>
+                                    </a>
+                                    <a
+                                        href="#"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
